@@ -1,0 +1,37 @@
+{
+  "name": "the-humdrum-wolves",
+  "version": "1.0.0",
+  "description": "Angular 2 Course Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Humdrum-Wolves/The-Humdrum-Wolves.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Humdrum-Wolves/The-Humdrum-Wolves/issues"
+  },
+  "homepage": "https://github.com/The-Humdrum-Wolves/The-Humdrum-Wolves#readme",
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.1",
+    "@types/cors": "^2.8.1",
+    "@types/express-session": "^1.15.3",
+    "@types/moment": "^2.13.0",
+    "@types/passport": "^0.3.4",
+    "@types/passport-local": "^1.0.31",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.31",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
