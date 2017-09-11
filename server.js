@@ -9,5 +9,5 @@ async()
     .then((db) => require('./data').init(db))
     .then((data) => require('./app').init(data))
     .then((app) => {
-        app.listen(config.port, () => console.log(`Humdrum wolves server started at port ${config.port}`))            
+        app.listen(process.env.port || config.port, () => console.log(`Humdrum wolves server started at port ${config.port}`))            
     });
